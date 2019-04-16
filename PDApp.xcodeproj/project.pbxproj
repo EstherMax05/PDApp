@@ -15,6 +15,7 @@
 		E61AA81E226675FB009E03C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61AA81C226675FB009E03C1 /* LaunchScreen.storyboard */; };
 		E61AA829226675FB009E03C1 /* PDAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61AA828226675FB009E03C1 /* PDAppTests.swift */; };
 		E61AA834226675FB009E03C1 /* PDAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61AA833226675FB009E03C1 /* PDAppUITests.swift */; };
+		E61AA842226697B4009E03C1 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61AA841226697B4009E03C1 /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E61AA82F226675FB009E03C1 /* PDAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61AA833226675FB009E03C1 /* PDAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDAppUITests.swift; sourceTree = "<group>"; };
 		E61AA835226675FB009E03C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61AA841226697B4009E03C1 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				E61AA810226675F9009E03C1 /* AppDelegate.swift */,
 				E61AA812226675F9009E03C1 /* ViewController.swift */,
+				E61AA841226697B4009E03C1 /* PickerViewController.swift */,
 				E61AA814226675F9009E03C1 /* Main.storyboard */,
 				E61AA81A226675FB009E03C1 /* Assets.xcassets */,
 				E61AA81C226675FB009E03C1 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				E61AA813226675F9009E03C1 /* ViewController.swift in Sources */,
 				E61AA819226675F9009E03C1 /* PDApp.xcdatamodeld in Sources */,
+				E61AA842226697B4009E03C1 /* PickerViewController.swift in Sources */,
 				E61AA811226675F9009E03C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
